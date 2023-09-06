@@ -1,0 +1,105 @@
+@import "../../styles/vars.scss";
+
+.card {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 1rem;
+  border: 2px solid;
+  border-color: var(--color-accent);
+  border-radius: 8px;
+  background-color: var(--color-white);
+  box-shadow: rgba(89, 37, 66, 0.05) 0px 5px 10px;
+  mix-blend-mode: darken;
+  @include Animation(box-shadow, border-color);
+
+  &:hover {
+    border-color: var(--color-accent-variant);
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.15), 25px 0 20px -20px rgba(0, 0, 0, 0.15), 0px 25px 20px -20px rgba(0, 0, 0, 0.15), -25px 0 20px -20px rgba(0, 0, 0, 0.15);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 380px;
+  }
+}
+
+.cardImage {
+  position: relative;
+  height: 334px;
+  overflow: hidden;
+
+  @media screen and (min-width: 1280px) {
+    height: 380px;
+  }
+}
+
+.mainImage {
+  position: absolute;
+  object-fit: contain;
+}
+
+.badge {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px 4px;
+
+  border-radius: 2px;
+  background-color: rgb(139, 115, 191, 80%);
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  row-gap: 1rem;
+  text-align: center;
+}
+
+.title {
+  flex-grow: 2;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+.colorsWrap {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+
+}
+
+.color {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  border: 1px solid var(--color-accent-variant);
+  border-radius: 50%;
+}
+
+.priceList {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 20px;
+  color: var(--color-primary);
+}
+
+.oldPrice {
+  composes: price;
+
+  color: rgb(64, 46, 50, 50%);
+  text-decoration: line-through;
+}

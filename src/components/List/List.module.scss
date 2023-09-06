@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.paginationWrap {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+
+  @media screen and (max-width: 1279px) {
+    transform: translateX(-50%);
+    bottom: 25px;
+  }
+}

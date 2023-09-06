@@ -1,0 +1,90 @@
+.products {
+  position: relative;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1280px) {
+    padding: 120px 40px;
+    display: flex;
+    column-gap: 8px;
+  }
+}
+
+.left {
+  position: sticky;
+  flex: 1;
+  height: 100%;
+  top: 80px;
+
+  @media screen and (max-width: 1279px) {
+    z-index: 9;
+    top: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 12px;
+    background-color: rgb(217, 217, 217, 90%);
+  }
+}
+
+.leftItem {
+  @media screen and (max-width: 1279px) {
+    min-width: 184px;
+  }
+}
+
+.leftItem:not(:last-child) {
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 28px;
+  }
+}
+
+.itemName {
+  margin-bottom: 8px;
+
+  @media screen and (max-width: 1279px) {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+.productsTitle {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.inputItem {
+  display: flex;
+  column-gap: 4px;
+  margin-bottom: 8px;
+}
+
+.inputItem label {
+  margin-left: 8px;
+}
+
+.right {
+  min-height: 560px;
+
+  @media screen and (max-width: 1279px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex: 5;
+  }
+}
+
+.catImg {
+  max-width: 1070px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.MuiPagination-root {
+  button {
+    color: green !important;
+  }
+}

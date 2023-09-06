@@ -1,0 +1,143 @@
+@import "../../styles/vars.scss";
+
+$sliderItemWidth: calc(100% / 8);
+
+.sectionTitle {
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 40px;
+  }
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.itemList {
+  width: calc(100% * 8);
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  @include Animation(all);
+
+  @media screen and (min-width: 720px) {
+    width: calc((100% / 4) * 8);
+  }
+}
+
+.img {
+  object-fit: cover;
+}
+
+.controls {
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  pointer-events: none;
+}
+
+.controls li {
+  display: flex;
+  color: var(--color-white);
+  background-color: rgba(120, 120, 120, 0.4);
+  border-radius: 0.2rem;
+  pointer-events: auto;
+  cursor: pointer;
+  @include Animation(background-color);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(122, 122, 122, 0.6);
+  }
+}
+
+.cardLink {
+  display: grid;
+  width: 100%;
+  padding: 8px;
+
+  @media screen and (min-width: 720px) {
+    width: $sliderItemWidth;
+  }
+}
+
+.card {
+  container-type: inline-size;
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  background: var(--color-secondary);
+  border: 1px solid transparent;
+
+  @include Animation(box-shadow);
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) -4px 4px 6px,
+      rgba(0, 0, 0, 0.15) 3px 3px 10px;
+  }
+}
+
+.cardImage {
+  position: relative;
+  height: 226px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  &:hover {
+    .secondImage {
+      z-index: 2;
+    }
+  }
+
+  @container (width >=200px) {
+    height: 290px;
+  }
+
+  @container (width >=290px) {
+    height: 390px;
+  }
+
+  @container (width >=320px) {
+    height: 450px;
+  }
+}
+
+.mainImage,
+.secondImage {
+  position: absolute;
+  object-fit: cover;
+}
+
+.mainImage {
+  z-index: 1;
+}
+
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+}
+
+.title {
+  margin: 1rem 0 1.5rem;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.3em;
+  font-weight: 300;
+  color: var(--color-white);
+}

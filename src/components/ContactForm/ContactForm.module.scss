@@ -1,0 +1,129 @@
+@import "styles/vars";
+
+.contactForm {
+  position: relative;
+
+  @media screen and (max-width: 719px) {
+    text-align: center;
+  }
+}
+
+.formHeading {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--color-light);
+
+  @media screen and (min-width: 1280px) {
+    font-size: 1.4rem;
+  }
+}
+
+.labelWrap {
+  position: relative;
+  margin-bottom: 1.2rem;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.formInput {
+  width: 100%;
+  background: var(--color-white);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--color-black);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+
+  @include Animation(background);
+
+  &::placeholder {
+    color: var(--color-light);
+    font-size: 1rem;
+  }
+
+  &:focus,
+  &:hover {
+    border: 1px solid var(--color-accent);
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 1.2rem;
+  }
+}
+
+.formInput:focus~.label,
+.formInput:valid~.label {
+  top: -8px;
+  left: 8px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  color: var(--color-black);
+  cursor: pointer;
+  z-index: 2;
+  background-color: var(--color-white);
+
+  @media screen and (min-width: 1280px) {
+    top: -10px;
+    font-size: 1em;
+  }
+}
+
+.formTextarea {
+  composes: formInput;
+
+  resize: none;
+  height: 100px;
+}
+
+.label {
+  position: absolute;
+  top: 17px;
+  left: 12px;
+  font-size: 1rem;
+  color: #9d6e76;
+  cursor: text;
+  @include Animation(all);
+
+  &+.formInput:placeholder-shown {
+    // Styles for label when the input is empty or no value is entered
+    top: 17px;
+    left: 20px;
+    font-size: 1em;
+    cursor: text;
+  }
+
+  &+.formInput:not(:placeholder-shown) {
+    // Styles for label when the input has data
+    top: -1.5em;
+    left: 0;
+    font-size: 0.8em;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 1.1rem;
+  }
+}
+
+.errorMsg {
+  position: absolute;
+  bottom: -16px;
+  right: 0;
+  font-size: 12px;
+  color: var(--color-black);
+
+  @media screen and (max-width: 1280px) {
+    left: 0;
+  }
+}
+
+.btnWrap {
+  text-align: center;
+}

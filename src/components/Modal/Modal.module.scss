@@ -1,0 +1,38 @@
+@import "styles/vars";
+
+.backDrop {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(85, 85, 85, 0.8);
+
+  @include Animation(opacity, visibility);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 85vw;
+  max-width: 700px;
+  height: auto;
+  padding: 40px 20px 20px;
+  overflow: hidden;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  color: var(--color-black);
+  background-image: linear-gradient(to right, var(--color-black), var(--color-accent-variant));
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  @include Animation(transform);
+
+  @media screen and (min-width: 1280px) {
+    max-height: 90vh;
+    padding: 40px;
+  }
+}

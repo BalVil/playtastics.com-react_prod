@@ -1,0 +1,41 @@
+@import "styles/vars.scss";
+@import "../Button/Button.module.scss";
+
+.sectionTitle {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 40px;
+  }
+}
+
+.products {
+  @media screen and (min-width: 720px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+}
+
+.productsItem {
+  display: flex;
+
+  @media screen and (min-width: 720px) {
+    flex-basis: calc(100% / 2 - 10px * 2);
+    margin: 10px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-basis: calc(100% / 3 - 10px * 2);
+  }
+
+  &:not(:last-child) {
+    @media screen and (max-width: 719px) {
+      margin-bottom: 20px;
+    }
+  }
+}

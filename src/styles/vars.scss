@@ -1,0 +1,40 @@
+:root {
+  --color-white: #fff;
+  --color-light: #f0f0f0;
+
+  --bcg-footer: var(--color-black);
+
+  --color-black: #260104;
+  --color-dark: #401801;
+
+  --color-primary: #730202;
+  --color-secondary: #D19F9E;
+
+  --color-accent: #F25C05;
+  --color-accent-variant: #f20505;
+
+  --toastify-color-dark: var(--color-black);
+}
+
+[data-theme='dark'] {
+  --color-white: #260104;
+  --color-light: #6a3719;
+
+  --bcg-footer: var(--color-white);
+
+  --color-black: #fff;
+  --color-dark: #f0f0f0;
+
+  --color-primary: #8e4a4a;
+  --color-secondary: #D19F9E;
+
+  --color-accent: #F25C05;
+  --color-accent-variant: #f20505;
+
+  --toastify-color-dark: var(--color-black);
+}
+
+// Transition with default value
+@mixin Animation($properties...) {
+  transition: 400ms ease-out;
+}

@@ -1,0 +1,906 @@
+[
+  {
+    "id": 1,
+    "image": "/img/products/01.webp",
+    "title": "JACKSON'S : PROFESSIONAL OIL PAINT",
+    "desc": "Jackson’s Professional Oil paints are rich, vibrant, and full of character. Made by skilled artisans, we use only the finest grade pigments and the purest refined oils.",
+    "category": "best sellers",
+    "badge": "new",
+    "type": "",
+    "price": 18.0,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "green",
+      "white",
+      "black",
+      "orange"
+    ],
+    "size": { "40 ml": "18.0", "225 ml": "70.20" },
+    "information": {
+      "SKU": "P-JASPROO",
+      "To Use With": "Oil",
+      "Quality": "Highest",
+      "Colour Lightfast": "Excellent"
+    },
+    "features": [
+      "Lower quality oil paints tend to be formulated and manufactured to ensure all colours have a uniform consistency and drying time. Our range of professional colours is made to reveal the natural beauty and character of each pigment. In order to maintain optimum colour strength, we don't use extenders or fillers.",
+      "After mixing, the pigments and oils are passed through water-cooled mills – these are made of stone or steel, according to pigment type. We grind our colours as many times as is needed to release the full ‘colour potential’. Some pigments like Ultramarine only need gentle milling, whereas coarser earth pigments must undergo a lengthier process on the mill to achieve optimum dispersion."
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": 2,
+    "image": "/img/products/02.webp",
+    "title": "JACKSON'S : ARTIST OIL PAINT",
+    "desc": "Jackson's Artist Oil Paints are made in the UK by combining high-quality modern pigments and refined linseed oils to create paints that are permanent and lightfast.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "price": 5.0,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "green",
+      "white",
+      "black",
+      "orange"
+    ],
+    "size": { "60 ml": "5.0", "225 ml": "13.0", "1000 ml": "52.0" },
+    "information": {
+      "SKU": "P-JASAOC",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "These colours are carefully considered to provide a full palette and are made to high standards, ensuring they are luminous, vibrant and full of character.",
+      "These oil colours offer vibrant colour, a buttery consistency, and they mix well with other oil colours including our range of Professional Artist Oil paints. These tubes of intense colour can be squeezed from the tube and used as they are, or mixed with mediums to alter consistency and sheen. Jackson's Artist Oils do not contain metallic stearates, industrial fillers or anti-skinning agents.",
+      "Jackson’s Artist and Professional Oil paint and mediums along with the Jackson’s Artist Acrylic Paint range are formulated and manufactured in the UK using specified raw materials from suppliers who share our ethical principles and objectives. The manufacturing process involves no animal testing and all purchasing decisions are informed by Jackson's commitment to anti-slavery and outright objection to any form of child labour. At both the formulation stage and during manufacture, a process of continual review and further reduction of our environmental impact is maintained."
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "image": "/img/products/03.webp",
+    "title": "OLD HOLLAND : CLASSIC OIL PAINT",
+    "desc": "Founded in 1664 during the Dutch Golden Age of Painting, Old Holland has more than three centuries of experience making artist oil paints.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "price": 17.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "40 ml": "17.99",
+      "60 ml": "25.0",
+      "225 ml": "75.0"
+    },
+    "information": {
+      "SKU": "P-OHCO",
+      "To Use With": "Oil",
+      "Quality": "Highest",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "They are a popular choice for artists wanting densely pigmented oil colours with the highest possible lightfastness.",
+      "Old Holland's range of 168 oil paints each has the highest degree of lightfastness. Traditional, non-lightfast pigments were replaced with modern lightfast pigments with the same colour characteristics as the traditional ones. Thanks to the highest possible concentration of pigment in each colour, the paint has an unprecedented colour strength.",
+      "Within the unique range there is a wide range of opaque and transparent colours, each with the highest possible brilliance (intense) and clarity (clean) characteristics. The only medium used for these oil paints is cold-pressed extra virgin linseed oil, used to obtain optimum oxidisation (drying) of the paint. This increases durability and brushstroke spread. Together, these characteristics result in an oil paint of unequalled quality."
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": 4,
+    "image": "/img/products/04.webp",
+    "title": "MICHAEL HARDING : OIL PAINT",
+    "desc": "Michael Harding Oil Colours are among the finest oil paints available to artists today.",
+    "category": "",
+    "badge": "",
+    "type": "new arrivals",
+    "price": 10.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "40 ml": "10.99",
+      "60 ml": "15.0",
+      "225 ml": "44.99"
+    },
+    "information": {
+      "SKU": "P-MHOC",
+      "To Use With": "Oil",
+      "Quality": "Highest",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "The colours have a high load of top-quality pigments which are ground in refined cold-pressed linseed oil (safflower oil in Titanium White No. 1). They are completely free of fillers, extenders, or driers, resulting in pure, rich, and vibrant colours that are lightfast and buttery.",
+      "Michael Harding paints are made by hand, using techniques which date back to the days of the Old Masters. There is a very simple reason for this painstaking process. Harding's past as an artist and painter compelled him to want to create colours that were true and vibrant, and paint which was beautiful and durable.",
+      "The greater the pigment content of a paint the greater the resistance it has to fading. Nearly all manufacturers use various fillers to extend the volume of the oil paint. It may increase profits but it compromises on quality. Harding refuses to do this: 'Why make something exceptional and then dilute it?'"
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 5,
+    "image": "/img/products/05.webp",
+    "title": "WILLIAMSBURG : OIL PAINT",
+    "desc": "In the mid-1980s Carl Plansky began making paint for himself and his friends in the Williamsburg neighbourhood of Brooklyn, New York.",
+    "category": "best sellers",
+    "badge": "",
+    "type": "new arrivals",
+    "oldPrice": 20.99,
+    "price": 18.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "37 ml": "18.99",
+      "150 ml": "49.0"
+    },
+    "information": {
+      "SKU": "P-WMSBOC",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "Williamsburg's oil paints accumulated a following and international presence while preserving the handmade integrity of the paint.",
+      "Each colour is ground to enhance the beauty and luminosity specific to that particular pigment. Some colours will feel slightly gritty, others extremely smooth. The Cerulean Blue has a beautiful velvet, light-absorbing surface with an extremely strong covering power; the Siennas will often be chunky or gritty to allow light to travel through the vehicle, exposing rich golden or mahogany undertones instead of just heavy, dull browns.",
+      "The pigments are ground in pure, premium, alkali-refined and PH- balanced linseed oil and made in batches no larger than five gallons at a time. This gives total control over the product, much like the late nineteenth-century French colour makers. All the materials are hand measured, and every ounce of paint is scrutinised. The paint is packed in 37ml and 150ml non-reactive aluminium tubes."
+    ],
+    "rating": "3.5"
+  },
+  {
+    "id": 6,
+    "image": "/img/products/06.webp",
+    "title": "SCHMINCKE : MUSSINI OIL PAINT",
+    "desc": "Schmincke Mussini oil colour are unique throughout the world for their use of natural resin binders, instead of conventional oil binders.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "oldPrice": 10.99,
+    "price": 9.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "35 ml": "9.99",
+      "150 ml": "40.99"
+    },
+    "information": {
+      "SKU": "P-SHMMO",
+      "To Use With": "Oil",
+      "Quality": "Highest",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "This allows for more luminous, stable colours. The recipe of Mussini oils is based on the oil paint formulations of the Old Masters.",
+      "There are 108 colours in the range, including 7 gold shades. All of these offer intense pigment saturation and maximum lightfastness.",
+      "64 of the shades are single pigment shades, which are particularly easy to use when colour mixing."
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": 7,
+    "image": "/img/products/07.webp",
+    "title": "SCHMINCKE : NORMA : PROFESSIONAL ARTISTS' OIL PAINT",
+    "desc": "Schmincke Norma Professional Artists’ Oils offer a balanced spectrum of 84 vibrant, lightfast colours.",
+    "category": "",
+    "badge": "new",
+    "type": "",
+    "price": 6.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "35 ml": "6.99",
+      "120 ml": "17.99",
+      "200 ml": "24.00"
+    },
+    "information": {
+      "SKU": "P-OSNP",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "Refer to single colours"
+    },
+    "features": [
+      "The finest traditional and modern pigments have been used in the highest concentrations, guaranteeing a maximum spreading rate with exceptional luminosity and brilliance throughout the range.",
+      "Each colour goes through a careful preparation process, including being traditionally ground on rolling mills and then aged for three months before bottling. The finely ground pigments are bound with pure high-grade plant oils to ensure excellent adhesion, maximum pigment absorption, a uniform drying time, and minimise any tendency for yellowing.",
+      "All 84 colours offer maximum lightfastness (4 to 5 stars) and the range consists of traditional and modern hues including 27 transparent colours. Norma Professional Oils have a smooth and creamy texture making them effortless to apply and blend."
+    ],
+    "rating": "4"
+  },
+  {
+    "id": 8,
+    "image": "/img/products/08.webp",
+    "title": "WINSOR & NEWTON : ARTIST OIL PAINT",
+    "desc": "Artist Oil Colour is known for its purity, quality and reliability, reflected in its world-wide reputation amongst professional artists. There are 119 rich and bright colours in the range.",
+    "category": "best sellers",
+    "badge": "top",
+    "type": "new arrivals",
+    "price": 6.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta",
+      "pink"
+    ],
+    "size": {
+      "37 ml": "6.99",
+      "200 ml": "24.99"
+    },
+    "information": {
+      "SKU": "P-WNAO",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "Every Winsor & Newton Artist Oil Colour is individually formulated to enhance each pigment's natural characteristics. By exercising maximum quality control throughout all stages of manufacture, selecting the most suitable drying oils and method of pigment dispersion, the unique individual properties of each colour are preserved.",
+      "Covering Power not only comes from pigment strength, but also from the greater thickness of colour, which results from the stiff consistency associated with Winsor & Newton's Artists' Oil Colour. Covering power is particularly linked to the most opaque colours like Titanium White and the Cadmiums.",
+      "Like all raw materials, pigments are available in various grades. We use only the purest of pigments ensuring the cleanest, brightest colours, which in turn produce the best colour mixtures.",
+      "As the cost of the pigments used varies, so does the price charged for the colour. Therefore Winsor & Newton have grouped colours together in 'series'. The higher the series number, the higher the price. You can find the series number both on the colour chart and on the tube."
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": 9,
+    "image": "/img/products/09.webp",
+    "title": "HOLBEIN : ARTISTS' OIL COLOUR",
+    "desc": "Holbein Artists’ Oil Colour is a world-class professional range of oil colours, made using the purest pigments available and manufactured to the highest standards of quality control.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "oldPrice": 9.49,
+    "price": 8.09,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta",
+      "pink"
+    ],
+    "size": {
+      "50 ml": "8.09",
+      "110 ml": "15.49",
+      "330 ml": "35.99"
+    },
+    "information": {
+      "SKU": "P-HOLAOC",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "Refer to single colours"
+    },
+    "features": [
+      "Holbein artist oil is smooth, highly pigmented, and lightfast, with a very stable paint film. The range offers both traditional colours and modern pigments. All colours are ground up to ten times in order to achieve a uniform viscosity across the entire palette of colours. This uniform viscosity ensures that each colour has the same smooth consistency and luminosity.",
+      "Holbein oils are created from carefully selected pigments and plant oils such as poppy oil and linseed oil. The range is adapted to the Munsell colour standard for hue, value, and chroma."
+    ],
+    "rating": "3"
+  },
+  {
+    "id": 10,
+    "image": "/img/products/10.webp",
+    "title": "ISARO : OIL PAINT",
+    "desc": "Isaro Oil Paints are handcrafted in Belgium by Isabel Roelofs, who comes from two generations of paintmakers and is a descendant of well-known Belgian artist, Willem Roelofs.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "price": 7.09,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "38 ml": "7.09",
+      "56 ml": "15.99"
+    },
+    "information": {
+      "SKU": "P-ISAROO",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "Excellent"
+    },
+    "features": [
+      "Isaro oil paints are made from carefully selected lightfast pigments. Isabel's rich colourmaking history means she has a fascination with pigments, choosing her range from classical pigments (cadmium, cobalt, iron oxide, etc.), modern pigments (quinacridones, dioxazine, DPP, etc.), and historical pigments (cochineal, indigo, smalt, azurite, etc). Isaro deals directly with pigment manufacturers and requires information on all the characteristics of each selected pigment before they are purchased.",
+      "All the oil colours in the Isaro range are made with pure linseed oil. This has been chosen for its high colour saturation and for how it produces a very resistant protective film, called linoxyn.",
+      "Isaro Oil Paints are available in 50 colours in 38ml tubes. Titanium White and Zinc White are also available in 56ml tubes."
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 11,
+    "image": "/img/products/11.webp",
+    "title": "LANGRIDGE : OIL PAINT",
+    "desc": "Langridge Artist Colours is a Melbourne-based independent oil paint manufacturer founded by David Coles.",
+    "category": "best sellers",
+    "badge": "",
+    "type": "",
+    "price": 10.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "40 ml": "10.99",
+      "110 ml": "20.99",
+      "300 ml": "42.00"
+    },
+    "information": {
+      "SKU": "P-OLAN",
+      "To Use With": "Oil",
+      "Quality": "Highest",
+      "Colour Lightfast": "Excellent"
+    },
+    "features": [
+      "One of the youngest paint manufacturers in the world, Langridge have a unique vision of how oil paint can be re-invented by today’s artists and utilised for contemporary application.",
+      "Langridge Handmade Oil Colour has been constructed to excel in saturation of colour and physical handling qualities. Developed in consultation with artists, these paints satisfy demands for oil colours that are unadulterated by fillers or modifiers, resulting in a pure, full-strength paint with maximum pigment loading.",
+      "Every colour in the range has been built out of a dedicated analytic testing for total surety of performance and permanence. Their paint is made by triple roll milling batches no larger than 20 litres, ensuring total control throughout the production process. The sensitivity dedicated to the milling process ensures the highest quality paint is produced - on the triple roll mill, no two colours react the same due to the fact each colour has been individually formulated and made in its own unique fashion. As a result, this range of paints has the fullest chromatic strength with exceptional tinting power, resulting in extremely clean colour-mixing. Because the colours have not been adulterated, the individual nature of each pigment has not been masked. Some colours will be soft whilst others will be ropey, buttery or stiff."
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": 12,
+    "image": "/img/products/12.webp",
+    "title": "CHARVIN : EXTRA-FINE ARTIST OIL PAINT",
+    "desc": "Charvin has a long tradition of producing artists’ oil colour using high quality ingredients and traditional processes.",
+    "category": "best sellers",
+    "badge": "",
+    "type": "",
+    "price": 7.29,
+    "colors": [
+      "red",
+      "brown",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "20 ml": "7.29",
+      "60 ml": "12.99",
+      "150 ml": "20.20"
+    },
+    "information": {
+      "SKU": "P-OCHVOP",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "Refer to single colours"
+    },
+    "features": [
+      " Established in 1830 and based in Cannes on the French Riviera, Charvin slowly and expertly produces oil colour with a dedication to detail to ensure consistent and creamy colours that are full of character.",
+      "Charvin Extra Fine Artist Oil colours are made according to some of the oldest recipes still in use. The highest possible concentration of pigment is combined with the principle binder, poppy oil, which is non-yellowing and gives a creamy texture and richness.",
+      "The extensive range of colours are permanent and lightfast, and are ideal for traditional and modern techniques."
+    ],
+    "rating": "3.5"
+  },
+  {
+    "id": 13,
+    "image": "/img/products/13.webp",
+    "title": "TALENS : REMBRANDT : OIL PAINT",
+    "desc": "Rembrandt Oil Colours have an intense luminosity and depth due to the very fine grinding process, along with the highest possible concentration of pigments.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "price": 7.0,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "40 ml": "7.00",
+      "60 ml": "8.99",
+      "150 ml": "16.20"
+    },
+    "information": {
+      "SKU": "P-REMBO",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "Colours have the maximum degree of lightfastness and durability throughout the range.",
+      "The range of Rembrandt oil paint consists of 120 colours with a balanced distribution between opaque and transparent colours. It also includes some specialised colours such as genuine cadmiums and shiny metallics. Each colour has a smooth, buttery texture and a rich intensity.",
+      "Tubes are available in 40ml, 60ml, and 150ml."
+    ],
+    "rating": "4"
+  },
+  {
+    "id": 14,
+    "image": "/img/products/14.webp",
+    "title": "BLOCKX : OIL PAINT",
+    "desc": "Ground by hand in the Blockx tradition with slowly rotating stone mills, these extra-fine artists' colours are made from a selection of high-quality pigments and oil.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "price": 10.9,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "35 ml": "10.90",
+      "200 ml": "32.99"
+    },
+    "information": {
+      "SKU": "P-BLOCKXO",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "Only pure pigments are used to achieve maximum lightfastness, a buttery consistency and easy mixing on the canvas. All colours have a minimum lightfast rating 7 out of 8 on the Blue Wool Scale.",
+      "Iron oxides, earths and blacks are ground with linseed oil. All other pigments are ground with poppyseed oil, which is well-known for its lack of yellowing and how it does not wrinkle when dry."
+    ],
+    "rating": "4"
+  },
+  {
+    "id": 15,
+    "image": "/img/products/15.webp",
+    "title": "M. GRAHAM : ARTISTS' OIL PAINTS",
+    "desc": "M. Graham Artists' Oil Paints are high-quality oil colours made with walnut oil. The only exceptions are the Fast-drying White, which contains an alkyd resin, and Titanium White which uses sunflower oil.",
+    "category": "best sellers",
+    "badge": "",
+    "type": "",
+    "oldPrice": 11.0,
+    "price": 9.5,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "37 ml": "9.50",
+      "150 ml": "24.49"
+    },
+    "information": {
+      "SKU": "P-OMGRAHAM",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "Refer to single colours"
+    },
+    "features": [
+      "Most modern paintmakers use linseed oil as a binder for their oil paints, occasionally making use of non-yellowing oils such as safflower or poppyseed oil for whites and pale colours. M. Graham Artists’ Oil Paints are made with walnut oil, a clear, free-flowing, slow-drying and non-yellowing oil which was used extensively by the artists of the European Renaissance. The pure American walnut oil used by M. Graham dries to a clear film which will not yellow, allowing the true colour of the pigments to shine through. In addition, walnut oil allows M. Graham to increase the amount of pigment in each colour, resulting in extraordinary richness, colour saturation, and tinting strength.",
+      "These excellent quality oil paints can be mixed with any other oil paints and mediums (even those that contain alkyd resins), and are all solvent-free. They flow more freely from the tube than most artist oils, and remain wet for longer."
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 16,
+    "image": "/img/products/16.webp",
+    "title": "GAMBLIN : 1980 OIL PAINT",
+    "desc": "Gamblin 1980 Oil Colors are made with the same dedication and pure pigments that go into their Artist Oils'. In addition, they use the same process of mixing, milling, filling, and hand labelling.",
+    "category": "",
+    "badge": "new",
+    "type": "new arrivals",
+    "price": 6.5,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "37 ml": "6.50",
+      "150 ml": "13.00"
+    },
+    "information": {
+      "SKU": "P-OGB",
+      "To Use With": "Oil",
+      "Quality": "Mid-range",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "To ensure the 1980 colours are affordable, Gamblin formulates them with pure pigments, refined linseed oil and marble dust (calcium carbonate). This is different to many other paint manufacturers who use gels and waxes to stiffen colours, or even replace traditional pigments with less expensive ones.",
+      "With 1980 colours, artists can pay less and experience colours that are great quality, without homogenized texture or muddy colour mixtures."
+    ],
+    "rating": "3.5"
+  },
+  {
+    "id": 17,
+    "image": "/img/products/17.webp",
+    "title": "SENNELIER : ARTIST OIL PAINT",
+    "desc": "Sennelier gathers only the finest natural and inorganic pigments from around the world for their Artist's Oil Colour.",
+    "category": "",
+    "badge": "",
+    "type": "new arrivals",
+    "price": 7.0,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "40 ml": "7.0",
+      "200 ml": "22.20"
+    },
+    "information": {
+      "SKU": "P-SENNOC",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "The pure pigments are ground very slowly with extreme care to an extra-fine consistency. They are then combined at maximum concentration with archival safflower oil (non-yellowing) to yield the highest possible tinting strength and rich satin finish.",
+      "These paints have a unique dense but firm and buttery texture, a consistency originally developed for the expressive style of the impressionist painters who frequented the Sennelier store in the 19th century. Sennelier's meticulous work and collaboration with Cezanne and other masters gave rise to a palette of colours that quickly became the standard of quality. Favoured by some of the greatest artists (Monet, Gauguin, Matisse, Picasso, Bonnard, Modigliani, Chagall, Ernst, Hockney), Sennelier oils hang in the world's most prestigious museums."
+    ],
+    "rating": "4"
+  },
+  {
+    "id": 18,
+    "image": "/img/products/18.webp",
+    "title": "DALER ROWNEY : ARTISTS' OIL PAINT",
+    "desc": "Artists’ Oil Colours are professional-quality paints, designed for durability and permanence and made using only the very best materials available.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "price": 8.3,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "38 ml": "8.30"
+    },
+    "information": {
+      "SKU": "P-DRAOC",
+      "To Use With": "Oil",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "Only the best pigments are used regardless of cost, to ensure absolute perfection for the discerning artist. The distinctive buttery consistency of Daler-Rowney Artists’ Oils derives from the use of linseed oil and wax, which acts as a plasticiser, helping to prevent even heavy impasto from becoming brittle and cracking over time."
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 19,
+    "image": "/img/products/19.webp",
+    "title": "LUKAS : STUDIO : OIL PAINT",
+    "desc": "Lightfast, permanent with an average drying time of 2-4 days, LUKAS oils are extremely concentrated and made with the highest quality pigments available.",
+    "category": "",
+    "badge": "",
+    "type": "",
+    "price": 10.5,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "200 ml": "10.50",
+      "500 ml": "23.00",
+      "2000 ml": "89.99"
+    },
+    "information": {
+      "SKU": "P-LUKSO",
+      "To Use With": "Oil",
+      "Quality": "Mid-range",
+      "Colour Lightfast": "Excellent"
+    },
+    "features": [
+      "The use of high-quality linseed and sunflower oils guarantee good and even drying of the colours. The risks of the surface cracking while the colours are drying is minimised, when properly applied.",
+      "Using beeswax with the linseed and sunflower oil ensures LUKAS' buttery consistency is maintained throughout the range."
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 20,
+    "image": "/img/products/20.webp",
+    "title": "SENNELIER : RIVE GAUCHE : OIL PAINT",
+    "desc": "Made by Sennelier, Rive Gauche is named after the Left Bank of Paris where Sennelier was founded in 1887.",
+    "category": "",
+    "badge": "top",
+    "type": "",
+    "price": 4.0,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "40 ml": "4.0",
+      "200 ml": "12.00"
+    },
+    "information": {
+      "SKU": "P-ORIVE",
+      "To Use With": "Oil",
+      "Quality": "Mid-range",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "The special property of these oil paints is that they dry to a satin finish, twice as fast as conventional oil paint, while retaining the characteristic buttery texture of fine oil colours. This allows the artist to work twice as fast. Since they are made with safflower oil like the Sennelier artists-grade paints they also yellow much less than traditional oil colours."
+    ],
+    "rating": "4"
+  },
+  {
+    "id": 21,
+    "image": "/img/products/21.webp",
+    "title": "JACKSON'S : PROFESSIONAL ACRYLIC PAINT",
+    "desc": "Jackson’s Professional Acrylic Paints offer the highest grade of permanence and lightfastness.",
+    "category": "best sellers",
+    "badge": "",
+    "type": "",
+    "oldPrice": 7.49,
+    "price": 6.2,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "60 ml": "6.20",
+      "200 ml": "9.99"
+    },
+    "information": {
+      "SKU": "P-AJP",
+      "To Use With": "Acrylic",
+      "Quality": "Highest",
+      "Colour Lightfast": "Refer to single colours"
+    },
+    "features": [
+      "Made following traditional methods using pure pigments in a dispersion of 100% acrylic resin, most of the colours in the range have been formulated with only one pigment, resulting in maximum purity and colour strength.",
+      "The heavy body consistency of Jackson’s Professional Acrylic Paints make them ideal for all techniques, from fine brush work to heavy impasto. They dry rapidly to a matt finish and have great flexibility.",
+      "The range of colours consists of cadmiums and cobalts, organic pigments, natural earth colours, and synthetic iron oxides. Each colour has been developed individually to reveal the qualities of each pigment."
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 22,
+    "image": "/img/products/22.webp",
+    "title": "LASCAUX : ARTIST ACRYLIC PAINT",
+    "desc": "Lascaux Artist Acrylic Paint is a high-quality heavy body acrylic that is suitable for all painting techniques. It lends itself to both indoor and outdoor use.",
+    "category": "",
+    "badge": "",
+    "type": "new arrivals",
+    "price": 12.1,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "45 ml": "12.10",
+      "200 ml": "33.90"
+    },
+    "information": {
+      "SKU": "P-LASAA",
+      "To Use With": "Acrylic",
+      "Quality": "Highest",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "Lascaux Acrylic is highly concentrated with maximum pigmentation. The range has generally excellent lightfastness, age-resistance, and non-yellowing.",
+      "Colours have a minimal colour shift between wet & dry, with a semi-matt finis. They have a smooth and buttery thick texture."
+    ],
+    "rating": "4"
+  },
+  {
+    "id": 23,
+    "image": "/img/products/23.webp",
+    "title": "JACKSON'S : ARTIST WATERCOLOUR PAINT",
+    "desc": "Made to the exact same standards and formulas as the best professional artist watercolours available today, Jackson's Artist Watercolours are as good as any leading brand watercolour.",
+    "category": "",
+    "badge": "new",
+    "type": "",
+    "price": 3.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "Half Pan": "3.99",
+      "Full Pan": "4.99",
+      "10 ml": "5.90",
+      "21 ml": "8.70"
+    },
+    "information": {
+      "SKU": "P-JASAW",
+      "To Use With": "Watercolour",
+      "Quality": "Excellent",
+      "Colour Lightfast": "No"
+    },
+    "features": [
+      "Large chunks of the finest quality Sudanese Kordofan gum arabic are very slowly dissolved in cold water to preserve the gum's maximum binding strength. Honey is then added to give lustre and vivacity to the colours. Carefully selected for their purity and lightfast qualities, the finest pigments are then finely ground and soaked in purified water to allow the colours to develop their maximum splendour. The two mixtures are then blended together and slowly ground into a fine paste. The process is repeated until the pigment particles are dispersed evenly and finely to allow a flawless unity of the watercolour wash. Stringent quality controls follow, resulting in a selection of professional watercolours that are luminous, intense and a pleasure to use.",
+      "The watercolour sets are chosen to give a varied and extensive palette for the most popular colours.",
+      "Please note that the size and weight of each pan within Jackson's Artist Watercolour range may vary slightly."
+    ],
+    "rating": "5"
+  },
+  {
+    "id": 24,
+    "image": "/img/products/24.webp",
+    "title": "M. GRAHAM : ARTISTS' WATERCOLOUR PAINTS",
+    "desc": "M. Graham Artists' Watercolour Paints are made with a unique blend of Northwest blackberry honey and carefully selected pigments.",
+    "category": "best sellers",
+    "badge": "",
+    "type": "",
+    "price": 12.99,
+    "colors": [
+      "red",
+      "yellow",
+      "violet",
+      "grey",
+      "blue",
+      "green",
+      "white",
+      "black",
+      "orange",
+      "magenta"
+    ],
+    "size": {
+      "15 ml": "12.99"
+    },
+    "information": {
+      "SKU": "P-WMGRAHAM",
+      "To Use With": "Watercolour",
+      "Quality": "N/A",
+      "Colour Lightfast": "N/A"
+    },
+    "features": [
+      "The colours range from delicate tints to strong, concentrated colour. Honey's viscosity offers artists smooth and easy application, as well as yielding strong and true colours. It also helps the watercolours to dilute easily, even after months without use. They also resist hardening on the palette or in the tube."
+    ],
+    "rating": "5"
+  }
+]

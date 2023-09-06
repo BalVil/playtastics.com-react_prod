@@ -1,0 +1,80 @@
+@import "../../styles/vars.scss";
+
+
+.sectionTitle {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 40px;
+  }
+}
+
+.contentWrap {
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+}
+
+.imageWrap {
+  @media screen and (max-width: 1279px) {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex: 1;
+  }
+}
+
+.imageWrap img {
+  object-fit: cover;
+}
+
+.textWrap {
+  @media screen and (max-width: 1279px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    flex-basis: min-content;
+  }
+}
+
+.textWrap>p {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.4em;
+  letter-spacing: 0.06em;
+  hyphens: none;
+
+  @media screen and (min-width: 720px) {
+    font-size: 1.2rem;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 1.4rem;
+  }
+}
+
+.textWrap ul {
+  margin: 12px 28px;
+  list-style-type: disc;
+}
+
+.textWrap li {
+  padding: 4px;
+  text-align: justify;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 1.2rem;
+  }
+}
