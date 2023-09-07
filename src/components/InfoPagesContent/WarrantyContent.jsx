@@ -3,53 +3,79 @@ import TextWrap from 'components/InfoPagesText';
 function WarrantyContent() {
   return (
     <TextWrap title={'Warranty'}>
-      <h3>Worry-Free Playtime, Guaranteed!</h3>
+      <h3>Elevating Your Creative Journey with Confidence 🌟</h3>
       <p>
-        At playtastics, we're not just about bringing you the best of the 2000s
-        nostalgia; we're all about ensuring your playtime is pure joy. That's
-        why we stand by our products with our fantastic playtastics Playtime
-        Guarantee.
+        At Playtastics, we stand by the quality and performance of our art
+        supplies. We're committed to ensuring your satisfaction and peace of
+        mind as you embark on your creative journey. Please review our warranty
+        information below:
       </p>
 
-      <h4>Playtime Peace of Mind:</h4>
+      <h5>Quality Assurance:</h5>
       <p>
-        We want you to enjoy your trip down memory lane without a single worry.
-        That's why we offer a hassle-free 30-day return policy. If you're not
-        completely thrilled with your purchase, let us know, and we'll make it
-        right. No fuss, no muss, just pure playtime happiness!
+        a. We take immense pride in the quality of our art supplies. Our
+        products are crafted to meet or exceed industry standards, designed to
+        inspire artists of all levels, from budding novices to seasoned
+        professionals.
       </p>
 
-      <h4>Quality Assurance:</h4>
+      <h5>Warranty Duration:</h5>
       <p>
-        Our team of toy experts carefully handpick and inspect every item before
-        it makes its way to your doorstep. We're confident that your playtastics
-        toy will be in excellent condition, ready for playtime adventures!
+        a. The specific warranty period for each product may vary. You can find
+        detailed warranty information on the product pages on our website.
+        Please refer to the product description for warranty details.
       </p>
 
-      <h4>The playtastics Promise:</h4>
+      <h5>What's Covered:</h5>
       <p>
-        We believe in the quality of our products, and we stand by them. If your
-        toy has any manufacturing defects, rest assured, we've got you covered.
-        Just reach out to us within 90 days of your purchase, and we'll send you
-        a replacement faster than you can say "Furby."
+        a. Our warranty typically covers manufacturing defects and issues
+        related to product quality. If you encounter any problems with your
+        purchase, please don't hesitate to contact us.
       </p>
 
-      <h4>Contact Us:</h4>
+      <h5>Making a Warranty Claim:</h5>
       <p>
-        If you ever have any questions, concerns, or just want to share your
-        favorite 2000s toy memories, our friendly customer support team is here
-        for you. Drop us a line at support@playtastics.com, and we'll get back
-        to you faster than a Super Soaker squirts!
+        a. If you believe your product is eligible for a warranty claim, please
+        follow these steps:
+      </p>
+      <ul>
+        <li>
+          Contact our dedicated customer support team at
+          warranty@playtastics.com to initiate the warranty process.
+        </li>
+        <li>
+          Provide your order number and a clear description of the issue you're
+          experiencing with the product.
+        </li>
+        <li>
+          If necessary, include photographs to help us assess the problem.
+        </li>
+      </ul>
+
+      <h5>Resolution:</h5>
+      <p>
+        a. Upon receiving your warranty claim, our team will review the
+        information provided and determine if the claim is valid. If approved,
+        we will work with you to provide a suitable resolution, which may
+        include repair, replacement, or a refund.
       </p>
 
-      <h4>Spread the Playtime Love:</h4>
+      <h5>Contact Us:</h5>
       <p>
-        Don't forget to share your playtastics experience with fellow 2000s
-        kids! Join us on social media and become a part of the playtastics
-        community. We love hearing your stories and seeing your playtime
-        adventures!
+        a. If you have any questions or concerns regarding our warranty policy
+        or need assistance with a warranty claim, please contact our dedicated
+        customer support team at warranty@playtastics.com. We're here to assist
+        you promptly.
       </p>
 
+      <h5>Our Commitment:</h5>
+      <p>
+        a. At Playtastics, we're deeply committed to your creative journey. Our
+        goal is to provide you with art supplies that inspire, empower, and
+        support your artistic endeavors. Our warranty policy reflects our
+        dedication to ensuring that your experience with our products is
+        enjoyable and worry-free.
+      </p>
       <p>
         Thank you for choosing playtastics. We're here to ensure your playtime
         is as worry-free as it is fun. Let's keep the 2000s spirit alive and

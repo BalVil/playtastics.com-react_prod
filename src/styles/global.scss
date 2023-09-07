@@ -1,6 +1,8 @@
 @import-normalize;
 /* bring in normalize.css styles */
 
+@import "./vars.scss";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -44,7 +46,8 @@ html {
 body {
   font-family: 'Barlow', sans-serif;
   overflow: overlay;
-  color: var(--color-black);
+  color: var(--color-text);
+  background-color: var(--bcg);
 }
 
 code {
@@ -92,6 +95,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .MuiPagination-root {
   button {
-    color: green !important;
+    border: 1px solid var(--color-text) !important;
+    color: var(--color-text) !important;
   }
 }

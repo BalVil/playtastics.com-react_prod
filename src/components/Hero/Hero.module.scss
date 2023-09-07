@@ -16,7 +16,10 @@
   background-position: center;
   background-size: cover;
   background-color: var(--color-light);
-  background-image: url(../../assets/images/hero.webp);
+  background-image: linear-gradient(to right,
+    var(--hero),
+    var(--hero)),
+  url(../../assets/images/hero.webp)
 }
 
 .container {
@@ -39,7 +42,7 @@
   padding: 10px 30px;
   border-radius: 3px;
   line-height: 1.25;
-  background-color: var(--color-dark);
+  background-color: var(--color-text-secondary);
   color: var(--color-white);
   font-weight: 600;
   font-size: 1.4rem;

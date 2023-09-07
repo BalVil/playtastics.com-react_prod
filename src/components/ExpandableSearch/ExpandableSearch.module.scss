@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
 }
 
 .input {
@@ -19,7 +20,7 @@
   height: fit-content;
   max-height: 80vh;
   border-radius: 0 0 3px 3px;
-  background-color: var(--color-grey);
+  background-color: var(--bcg-secondary);
   overflow: scroll;
 
   @media screen and (min-width: 720px) {
@@ -44,12 +45,12 @@
 
 .item a {
   font-weight: 400;
-  color: var(--color-primary);
+  color: var(--color-text-primary);
   @include Animation(color);
 
   &:hover,
   &:focus {
-    color: var(--color-white);
+    color: var(--color-accent);
   }
 
   &::before {

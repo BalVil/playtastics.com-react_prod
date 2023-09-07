@@ -61,29 +61,47 @@
 }
 
 .price {
+  font-weight: 600;
   font-size: 30px;
   color: var(--color-primary);
 }
 
 .optionTitle {
-  margin-bottom: 6px;
-  color: var(--color-secondary);
-  font-weight: 300;
-}
-
-.optionTitle span {
+  margin-bottom: 8px;
+  color: var(--color-text);
   font-weight: 400;
 }
 
+.optionTitle span {
+  padding: 0px 4px 4px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+  background-color: var(--bcg-secondary);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
 .option>div:not(:last-child) {
-  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1280px) {
+    justify-content: flex-start;
+  }
 }
 
 .radioInput {
   visibility: hidden;
 
   &:checked+span {
-    border: 2px solid var(--color-white);
+    border: 2px solid var(--color-secondary);
+    box-shadow: 0px 8px 24px 0px rgba(242, 5, 5, 0.2);
+    top: 4px;
   }
 }
 
@@ -94,7 +112,7 @@
   width: 28px;
   height: 28px;
   display: inline-block;
-  border: 2px solid transparent;
+  border: 2px solid var(--color-text);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -103,12 +121,12 @@
   position: relative;
   left: -8px;
   top: 6px;
-  width: 42px;
-  height: 42px;
+  width: 60px;
+  height: 36px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid transparent;
+  border: 2px solid var(--color-text-variant);
   background-color: var(--color-black);
   color: var(--color-white);
   cursor: pointer;
@@ -147,7 +165,11 @@
 }
 
 .quantityValue {
-  width: 8px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .linkList {
@@ -187,7 +209,7 @@
 .details th {
   min-width: 120px;
   padding: 0.8rem 1.6rem;
-  border: 1px solid var(--color-dark);
+  border: 1px solid var(--color-text-primary);
   font-weight: 500;
 
   @media screen and (min-width: 1280px) {
@@ -200,6 +222,6 @@
   width: 100%;
   padding: 0.8rem 1.6rem;
   text-align: center;
-  border: 1px solid var(--color-dark);
-  background-color: var(--color-white);
+  border: 1px solid var(--color-text-primary);
+  background-color: var(--bcg);
 }

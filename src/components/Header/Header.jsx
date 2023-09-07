@@ -5,7 +5,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import useStickyHeader from 'hooks/useStickyHeader ';
 import Cart from 'components/Cart';
-import ExpandableSearchIcon from 'components/ExpandableSearchIcon';
+import ExpandableSearchIcon from 'components/ExpandableSearch';
 import DarkMode from 'components/DarkMode';
 import { ReactComponent as Logo } from 'assets/images/playtastics.svg';
 import styles from './Header.module.scss';
@@ -33,7 +33,8 @@ function Header() {
                 position: 'relative',
                 borderRadius: '4px',
                 transition: 'opacity 0.9s',
-                color: products.length > 0 ? '#585BAD' : 'rgba(0, 0, 0, 0.54)',
+                color:
+                  products.length > 0 ? '#585BAD' : 'var(--color-secondary)',
               }}
             />
             <span className={styles.amount}>{products.length}</span>

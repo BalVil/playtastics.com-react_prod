@@ -118,6 +118,16 @@ function Slider({ name }) {
                   </ul>
                   <div className={styles.desc}>
                     <h2 className={styles.title}>{item?.title}</h2>
+                    <ul className={styles.priceList}>
+                      {item?.oldPrice && (
+                        <li className={styles.oldPrice}>
+                          {item?.oldPrice.toFixed(2)}€
+                        </li>
+                      )}
+                      <li className={styles.price}>
+                        {item?.price.toFixed(2)}€
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </Link>

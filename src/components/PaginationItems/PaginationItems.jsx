@@ -18,9 +18,8 @@ function PaginationItems({ totalItems, pageSize, currentPage, onSetPage }) {
     <Pagination
       count={totalPages}
       page={currentPage}
-      variant="outlined"
       shape="rounded"
-      color="success"
+      color="error"
       onChange={handlePageChange}
       sx={{ color: 'white' }}
     />

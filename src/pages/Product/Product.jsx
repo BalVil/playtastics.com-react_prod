@@ -77,7 +77,10 @@ function Product() {
               {productItem.colors && (
                 <>
                   <h3 className={styles.optionTitle}>
-                    Color: <span>{selectedColor}</span>
+                    Color:{' '}
+                    <span style={{ color: selectedColor }}>
+                      {selectedColor}
+                    </span>
                   </h3>
                   <div>
                     {productItem.colors.map(option => {

@@ -33,7 +33,6 @@
 
 .desc {
   margin-top: 15px;
-  color: var(--color-white);
   font-size: 14px;
 
   @media screen and (min-width: 1280px) {
@@ -62,7 +61,8 @@
   padding: 0.7rem 1rem;
   border: 1px solid transparent;
   border-radius: 4px;
-  background-color: var(--color-light);
+  color: var(--color-text-primary);
+  background-color: var(--bcg);
   font-size: 14px;
 }
 

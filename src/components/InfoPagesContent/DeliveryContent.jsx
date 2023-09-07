@@ -3,70 +3,97 @@ import TextWrap from 'components/InfoPagesText';
 function DeliveryContent() {
   return (
     <TextWrap title={'Delivery  Information'}>
-      <h3>Delivering Smiles to Your Doorstep! 🚀🎁</h3>
+      <h3>Bringing Art Supplies to Your Doorstep 🚚</h3>
       <p>
-        At playtastics, we know the excitement of waiting for your 2000s
-        nostalgia toys to arrive is almost as fun as playing with them. That's
-        why we've got the scoop on how we make sure those smiles reach your
-        doorstep:
+        At Playtastics, we understand that timely and secure delivery is
+        essential to your creative process. We're dedicated to ensuring that
+        your art supplies reach you swiftly and safely. Please review our
+        delivery information below:
       </p>
 
-      <h4>Fast and Reliable Shipping:</h4>
+      <h5>Shipping Methods:</h5>
+      <p>a. We offer a range of shipping methods to suit your needs:</p>
+      <ul>
+        <li>
+          <span>Standard Shipping:</span> Our standard shipping option ensures
+          safe delivery within 15-24 business days. This option is ideal for
+          customers who want reliable and cost-effective shipping.
+        </li>
+        <li>
+          <span>Express Shipping:</span> Need your art supplies sooner? Choose
+          our express shipping option to receive your order within 5-10 business
+          days.
+        </li>
+      </ul>
+
+      <h5>Shipping Costs:</h5>
       <p>
-        We're as impatient as you are to get the toys in your hands! That's why
-        we use lightning-fast shipping methods. You can expect your order to be
-        processed and sent on its way to adventure within 24 hours.
+        a. Shipping costs are calculated based on your location, the selected
+        shipping method, and the weight of your order. You can view the shipping
+        cost during the checkout process before finalizing your order.
       </p>
 
-      <h4>Tracking Your Playtime:</h4>
+      <h5>Order Processing:</h5>
       <p>
-        Want to keep tabs on your delivery? We totally get it! We provide
-        tracking information, so you can follow your package's journey from our
-        retro toy wonderland to your front door.
+        a. We strive to process and ship your order as quickly as possible.
+        Orders are typically processed within 2 business days. Once your order
+        has shipped, you will receive a confirmation email with tracking
+        information.
       </p>
 
-      <h4>Free Shipping Over $50:</h4>
+      <h5>International Shipping:</h5>
       <p>
-        Spend $50 or more, and we'll throw in free shipping faster than you can
-        say, "I choose you, Pikachu!" It's our little way of saying thanks for
-        being an awesome playtastics customer.
+        a. Yes, we deliver art supplies worldwide! We're thrilled to share our
+        creative tools with artists around the globe. Please note that
+        international shipping costs and delivery times may vary based on your
+        location and local customs regulations.
       </p>
 
-      <h4>Shipping Options:</h4>
+      <h5>Delivery Timeframes:</h5>
       <p>
-        Need your toys in a hurry? We offer different shipping options to suit
-        your needs. Whether you're planning a 2000s-themed party or just can't
-        wait to relive your childhood, we've got you covered.
+        a. Delivery times may vary depending on your location and the shipping
+        method you choose. Please refer to the estimated delivery time provided
+        during the checkout process.
       </p>
 
-      <h4>Shipping Destinations:</h4>
+      <h5>Tracking Your Order:</h5>
       <p>
-        playtastics loves making new friends worldwide! We ship to the U.S. and
-        many international destinations. If you're not sure if we can ship to
-        your location, just drop us a line at shipping@playtastics.com, and
-        we'll check it out for you.
+        a. We provide tracking information for all shipped orders. You can track
+        the progress of your delivery through the carrier's website using the
+        provided tracking number.
       </p>
 
-      <h4>playtastics Care Packages:</h4>
+      <h5>Delivery Inspection:</h5>
       <p>
-        We take extra care to pack your toys safely, ensuring they arrive in
-        perfect condition. If, by some strange twist of fate, your order arrives
-        damaged, just let us know, and we'll make it right. We want your
-        playtime to be pure joy!
+        a. Upon receiving your art supplies, we recommend inspecting the
+        packaging for any visible damage. If the packaging appears damaged,
+        please make a note of it when signing for the delivery.
       </p>
 
-      <h4>Contact Us:</h4>
+      <h5>Contact Us:</h5>
       <p>
-        Have questions about shipping or just want to share your excitement
-        about your upcoming toy delivery? Reach out to our friendly customer
-        support team at shipping@playtastics.com. We're here to make your toy
-        shopping experience extraordinary!
+        a. If you have any questions or concerns regarding shipping, please
+        don't hesitate to contact our customer support team at
+        shipping@playtastics.com. We're here to assist you with any inquiries or
+        assistance you may need.
       </p>
 
+      <h5>Shipping Updates:</h5>
       <p>
-        Thank you for choosing playtastics. We're dedicated to delivering the
-        magic of the 2000s to your doorstep, one package at a time. Let's make
-        your playtime dreams come true! 🚚🎉🌟
+        a. We will keep you informed about the status of your order via email.
+        You will receive notifications when your order is processed, shipped,
+        and out for delivery.
+      </p>
+      <p>
+        At Playtastics, we take pride in delivering art supplies that fuel your
+        creativity. Our commitment to a safe and efficient shipping process
+        ensures that your supplies arrive in pristine condition, ready to
+        inspire your next masterpiece.
+      </p>
+      <p>
+        Thank you for choosing Playtastics as your creative partner. Let's
+        continue to explore the world of art together, one brushstroke at a
+        time.
       </p>
     </TextWrap>
   );

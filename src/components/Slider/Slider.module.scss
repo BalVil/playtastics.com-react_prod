@@ -79,15 +79,19 @@ $sliderItemWidth: calc(100% / 8);
   container-type: inline-size;
   display: grid;
   grid-template-rows: auto 1fr;
+  gap: 1rem;
 
-  background: var(--color-secondary);
-  border: 1px solid transparent;
-
-  @include Animation(box-shadow);
+  background: var(--bcg);
+  border: 1px solid;
+  border-color: transparent;
+  @include Animation(border-color);
 
   &:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) -4px 4px 6px,
-      rgba(0, 0, 0, 0.15) 3px 3px 10px;
+    border-color: var(--color-accent-variant);
+  }
+
+  &:hover .title {
+    color: var(--color-accent-variant);
   }
 }
 
@@ -95,7 +99,7 @@ $sliderItemWidth: calc(100% / 8);
   position: relative;
   height: 226px;
   overflow: hidden;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 8px;
 
   &:hover {
     .secondImage {
@@ -128,16 +132,40 @@ $sliderItemWidth: calc(100% / 8);
 
 .desc {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 8px;
+  flex-direction: column;
+  flex-grow: 1;
+  row-gap: 1rem;
+  text-align: center;
 }
 
 .title {
-  margin: 1rem 0 1.5rem;
-  text-align: center;
   font-size: 14px;
   line-height: 1.3em;
-  font-weight: 300;
-  color: var(--color-white);
+  font-weight: 500;
+  color: var(--color-text);
+  @include Animation(color);
+}
+
+.priceList {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--color-text-primary);
+
+  @media screen and (min-width: 720px) {
+    font-size: 1.4rem;
+  }
+}
+
+.oldPrice {
+  composes: price;
+
+  color: var(--color-primary);
+  text-decoration: line-through;
 }

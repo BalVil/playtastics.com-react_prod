@@ -5,7 +5,7 @@ import {
   Twitter,
   YouTube,
 } from '@mui/icons-material';
-import { Tooltip } from '@mui/material';
+import { Tooltip, Zoom } from '@mui/material';
 import BeInTouch from 'components/BeInTouch';
 import { ReactComponent as Logo } from 'assets/images/playtastics.svg';
 import styles from './Footer.module.scss';
@@ -64,6 +64,7 @@ function Footer() {
           <div className={styles.iconList}>
             <Tooltip
               title="Youtube"
+              TransitionComponent={Zoom}
               slotProps={{
                 tooltip: {
                   sx: {
@@ -83,6 +84,7 @@ function Footer() {
 
             <Tooltip
               title="Instagram"
+              TransitionComponent={Zoom}
               slotProps={{
                 tooltip: {
                   sx: {
@@ -104,6 +106,7 @@ function Footer() {
 
             <Tooltip
               title="Twitter"
+              TransitionComponent={Zoom}
               slotProps={{
                 tooltip: {
                   sx: {
@@ -123,6 +126,7 @@ function Footer() {
 
             <Tooltip
               title="Facebook"
+              TransitionComponent={Zoom}
               slotProps={{
                 tooltip: {
                   sx: {

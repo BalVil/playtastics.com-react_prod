@@ -4,7 +4,7 @@ import { IconButton, InputBase } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Clear from '@mui/icons-material/Clear';
 import SearchIcon from '@mui/icons-material/Search';
-import styles from './ExpandableSearchIcon.module.scss';
+import styles from './ExpandableSearch.module.scss';
 import products from '../../data/products.json';
 
 const ExpandableSearchIcon = () => {
@@ -54,6 +54,7 @@ const ExpandableSearchIcon = () => {
               transition: 'color 0.9s',
               width: `${matches ? '1.8rem' : '1.5rem'}`,
               height: `${matches ? '1.8rem' : '1.5rem'}`,
+              color: 'var(--color-secondary)',
             }}
           />
         )}
@@ -66,9 +67,9 @@ const ExpandableSearchIcon = () => {
             onChange={handleChange}
             sx={{
               minWidth: { xs: '250px', lg: '400px' },
-              padding: '8px 12px',
+              padding: '4px 12px',
               opacity: expanded ? 1 : 0,
-              backgroundColor: '#2f4858',
+              backgroundColor: 'var(--color-secondary)',
               borderRadius: '4px',
               color: 'white',
               transition: 'opacity 0.9s',
